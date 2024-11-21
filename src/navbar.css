@@ -1,0 +1,9 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+.icon{
+    max-height: 1200px;
+    max-width: 1500px;
+    background-color: rgb(51, 51, 247);
+    font-size: 25px;
+}

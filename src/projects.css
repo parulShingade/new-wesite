@@ -1,0 +1,43 @@
+.left{
+height: 200px;
+width: 200px;
+margin-left:1200px ;
+background-color: rgb(215, 219, 219);
+border-style: inset;
+box-shadow: 5px 10px #888888;
+animation: moveleft 3s ;
+}
+.right{
+    height: 200px; 
+   
+    width: 200px;
+    background-color: rgb(224, 225, 225);
+    border-style: inset;
+    box-shadow: 5px 10px #888888;
+    animation: moveright 3s ;
+    }
+
+    img{
+
+      height: 200px; 
+   
+      width: 200px; 
+    }
+    
+
+@keyframes moveleft{
+    from{
+      transform: translateX(300px);
+    }
+    to{
+      transform: translateX(0px);
+    }
+  }
+  @keyframes moveright{
+    from{
+      transform: translateX(0px);
+    }
+    to{
+      transform: translateX(300px);
+    }
+  }
